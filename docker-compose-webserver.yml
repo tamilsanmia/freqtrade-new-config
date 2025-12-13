@@ -30,6 +30,6 @@ services:
     # Default command used when running `docker compose up`
     command: >
       webserver
-      --config /freqtrade/user_data/config-futures-backtest.json
+      --config /freqtrade/user_data/binance_futures_Ichimoku_PairOptimized.json
 
     # docker-compose -f docker-compose-webserver.yml down && docker-compose -f docker-compose-webserver.yml up -d
