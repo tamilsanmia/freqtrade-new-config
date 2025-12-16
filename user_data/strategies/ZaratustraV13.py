@@ -37,6 +37,25 @@ class ZaratustraV13(IStrategy):
     # Max Open Trades:
     max_open_trades = -1
 
+    plot_config = {
+        "main_plot": {
+            "bbu": {"color": "rgba(255, 0, 0, 0.6)"},
+            "bbm": {"color": "rgba(255, 255, 255, 0.5)"},
+            "bbl": {"color": "rgba(0, 255, 0, 0.6)"},
+        },
+        "subplots": {
+            "ADX / DI": {
+                "adx": {"color": "yellow"},
+                "pdi": {"color": "green"},
+                "mdi": {"color": "red"},
+            },
+            "Volume": {
+                "volume": {"color": "blue"},
+                "volume_mean": {"color": "orange"},
+            },
+        },
+    }
+
     def leverage(self, pair: str, current_time: "datetime", current_rate: float, proposed_leverage: float, max_leverage: float, side: str, **kwargs,) -> float:
         return 10
         

@@ -50,10 +50,14 @@
         "ccxt_config": {},
         "ccxt_async_config": {},
         "pair_whitelist": [
-            "AVAX/USDT:USDT"
-            // "ADA/USDT:USDT",
-            // "DOT/USDT:USDT",
-            // "SOL/USDT:USDT"
+            "DASH/USDT:USDT",
+            "PENGU/USDT:USDT",
+            "ICP/USDT:USDT",
+            "TON/USDT:USDT",
+            "FET/USDT:USDT",
+            "HBAR/USDT:USDT",
+            "NEAR/USDT:USDT",
+            "ENA/USDT:USDT"
         ]
         ,
         "pair_blacklist": [

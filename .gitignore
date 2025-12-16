@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.sqlite
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code & IDEs
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Freqtrade specific
+user_data/backtest_results/
+user_data/hyperopt_results/
+user_data/export/
+user_data/logs/
+user_data/__pycache__/
+user_data/.freqtrade/
+user_data/data/
+freqtrade.db
+
+# Configs & Secrets
+config.json
+*.key
+*.pem
+
+# Docker
+*.pid
+*.sock
+
+# Temporary files
+*.tmp
+*.swp
+*.bak

@@ -2,10 +2,10 @@
 
 # Define the timeframes you want to download
 # timeframes=("5m" "15m" "30m" "1h" "4h" "1d")
-timeframes=("1m")
+timeframes=("1m" "5m" "15m" "30m" "1h" "4h" "1d")
 
 # Set timerange and config
-timerange="20221212-20251212"
+timerange="20221216-20251216"
 config="user_data/binance_futures_Ichimoku_PairOptimized.json"
 
 # Loop through timeframes and download data
