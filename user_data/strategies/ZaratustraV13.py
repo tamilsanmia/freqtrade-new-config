@@ -26,7 +26,7 @@ class ZaratustraV13(IStrategy):
     minimal_roi = {}
 
     # Stoploss:
-    stoploss = -0.296
+    stoploss = -0.5
 
     # Trailing stop:
     trailing_stop = True
