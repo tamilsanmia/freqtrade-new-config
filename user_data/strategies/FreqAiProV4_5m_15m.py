@@ -47,7 +47,7 @@ class FreqAiProV4_5m_15m(IStrategy):
     trailing_stop = False
     position_adjustment_enable = False
     ignore_roi_if_entry_signal = True
-    max_entry_position_adjustment = 1
+    max_entry_position_adjustment = 0
     max_dca_multiplier = 1
     process_only_new_candles = True
     can_short = True
