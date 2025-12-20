@@ -692,7 +692,7 @@ class FreqAiProV5(IStrategy):
         df.loc[
             (
                 qtpylib.crossed_above(df['rsi_15m'], df['rsi_disp_down_15m'])
-                & (df['tenkan_15m'] > df['kijun_15m'])
+                # & (df['tenkan_15m'] > df['kijun_15m'])
                 # & (df['tenkan'] > df['kijun'])
             ),
             ["enter_long", "enter_tag"],
@@ -702,7 +702,7 @@ class FreqAiProV5(IStrategy):
         df.loc[
             (
                 qtpylib.crossed_below(df['rsi_15m'], df['rsi_disp_up_15m'])
-                & (df['tenkan_15m'] < df['kijun_15m'])
+                # & (df['tenkan_15m'] < df['kijun_15m'])
                 # & (df['tenkan'] < df['kijun'])
             ),
             ["enter_short", "enter_tag"],
